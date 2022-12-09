@@ -3,7 +3,7 @@
     *
     *use puts rather than printf 
     *
-    *   * Return: Always 0 (Success)
+    * Return: nothing
     *
  */
 
