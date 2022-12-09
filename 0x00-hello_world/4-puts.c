@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-/*this is main function*/
+/*this is main function with no return value*/
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
