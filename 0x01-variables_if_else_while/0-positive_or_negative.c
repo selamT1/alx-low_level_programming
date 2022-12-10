@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * more headers goes there
- * main-main funcion start here
+ * main- main funcion start here
+ * Description- random numbers generated and listed out
  * Return: always 0
  */
 int main(void)
