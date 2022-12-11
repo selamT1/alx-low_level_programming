@@ -6,7 +6,7 @@
  * with some comditions
  * description:different numbers will be displayed
  * when the program executed
- * Retrun: always 0
+ * Return: 0
  */
 int main(void)
 {
