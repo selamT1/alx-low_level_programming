@@ -20,4 +20,5 @@ int main(void)
 		printf("%i is less than 6 and not 0\n", n);
 	else
 		printf("%i is equal to 0\n", n);
+	return (0);
 }
