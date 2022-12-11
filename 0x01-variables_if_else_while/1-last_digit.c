@@ -10,15 +10,16 @@
  */
 int main(void)
 {
-	int n;
+	int n, no;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 5)
-		printf("%i is greater than 5\n", n);
-	else if (n != 0 && n < 6)
-		printf("%i is less than 6 and not 0\n", n);
+	no = n % 10;
+	if (no > 5)
+		printf("the last digit of %i is %i: greater than 5\n", n, no);
+	else if (no != 0 && no < 6)
+		printf("the last digit of %i is %i: less than 6 and not 0\n", n, no);
 	else
-		printf("%i is equal to 0\n", n);
+		printf("the last digit of %i is %i equal to 0\n", n, no);
 	return (0);
 }
