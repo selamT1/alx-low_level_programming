@@ -21,4 +21,5 @@ int main(void)
 		UC++;
 	}
 	putchar('\n');
+	return (0);
 }
