@@ -10,10 +10,10 @@ int main(void)
 	char lc = 'a';
 	char UC = 'A';
 
-	while (ls <= 'z')
+	while (lc <= 'z')
 	{
 		putchar(ls);
-		ls++;
+		lc++;
 	}
 	while (UC <= 'Z')
 	{
