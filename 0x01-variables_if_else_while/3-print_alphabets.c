@@ -12,7 +12,7 @@ int main(void)
 
 	while (lc <= 'z')
 	{
-		putchar(ls);
+		putchar(lc);
 		lc++;
 	}
 	while (UC <= 'Z')
