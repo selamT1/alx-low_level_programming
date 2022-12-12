@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints all possible combinations 
+ * main - prints all possible combination
  * Return: 0
  */
 int main(void)
@@ -24,7 +24,7 @@ int main(void)
 			putchar(' ');
 		}
 	}
-
 	putchar('\n');
+
 	return (0);
 }
