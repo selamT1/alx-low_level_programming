@@ -1,5 +1,5 @@
 
-#include <studio.h>
+#include <stdio.h>
 /**
  * main- main function is the entery point of the code
  * Return: always 0
