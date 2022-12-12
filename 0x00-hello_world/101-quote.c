@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main -
- * description:
+ * main - function prints the word
+ * description: the is no printf and putchar function in usage
  * Return: 0
  */
 
