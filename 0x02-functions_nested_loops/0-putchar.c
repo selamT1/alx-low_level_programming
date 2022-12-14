@@ -2,7 +2,7 @@
 /**
  * main - entry point
  * description- print _putchar
- * Return: 0
+ *i Return: 0
  */
 
 int main(void)
@@ -15,5 +15,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
