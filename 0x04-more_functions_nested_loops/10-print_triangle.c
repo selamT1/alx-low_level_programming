@@ -6,11 +6,11 @@
 void print_triangle(int size)
 {
 	int i, j, a;
-	int count = size - 1;
+	int count = size;
 
-	for (i = 0; i <= size; i++)
+	for (i = 1; i <= size; i++)
 	{
-		for (j = 0; j < count; j++)
+		for (j = 1; j < count; j++)
 		{
 			_putchar(32);
 		}
