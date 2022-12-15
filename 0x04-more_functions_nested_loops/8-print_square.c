@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * print_square - print the square of the numbers
  * @size: the size of the square
