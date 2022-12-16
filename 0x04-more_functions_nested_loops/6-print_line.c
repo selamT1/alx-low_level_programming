@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - prints straight line
- * @n : accept arg
+ * @n : number of lines printed
  * Return: no return values
  */
 void print_line(int n)
@@ -14,9 +14,9 @@ void print_line(int n)
 	}
 	else
 	{
-		for (i = 0; i <= n; i++)
+		for (i = 0; i < n; i++)
 		{
-			_putchar(95);
+			_putchar('_');
 		}
 		_putchar('\n');
 	}
