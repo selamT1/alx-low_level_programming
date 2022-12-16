@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_triangle - print trigangle
+ * @size: limit the size of the triangle
  * Return: 0
  */
 void print_triangle(int size)
