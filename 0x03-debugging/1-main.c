@@ -10,7 +10,7 @@ int main(void)
 	int i;
 
 	printf("Infinite loop incoming :(\n");
-/*no need space here */
+
 	i = 0;
 /* i never increments so it will always be less than 10,always */
 	while (i < 10)
@@ -19,6 +19,6 @@ int main(void)
 	}
 
 	 printf("Infinite loop avoided! \\o/\n");
-/* no need space here */
+
 	 return (0);
 }
