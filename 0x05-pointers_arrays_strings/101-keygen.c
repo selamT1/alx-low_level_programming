@@ -1,28 +1,31 @@
-#include "main.h"
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
- * _atoi - string 
- * @s: args
+ * main - print randdom password
  * Return:integer
  */
 
-int _atoi(char *s)                                                                                                                      
+int main(void)                                                                                                                     
 {
 	int i, sum, n;
 	int pass[100];
+
 	sum = 0;
+
 	srand(time(NULL));
 	
 	for (i = 0; i < 100; i++)
 	{
-		pass[i] = radn() % 78;
+		pass[i] = rand() % 78;
 		sum += (pass[i] + '0');
-		_putchar(pass[i] + '0');
+		putchar(pass[i] + '0');
 		
 		if ((2772 - sum) - '0' < 78)
 		{
 			n = 2772 - sum - '0';
 			sum += n;
-			_putchar(n + '0');
+			putchar(n + '0');
 			break;
 		}
 	}
