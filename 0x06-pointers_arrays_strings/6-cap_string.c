@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Cap_string - capitalize letters
+ * cap_string - capitalize letters
  * @s: string arg
  * Return: string ptr
  */
