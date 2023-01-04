@@ -6,17 +6,16 @@
  */
 void _puts_recursion(char *s)
 {
-	 int i, j, count = 0;
-	 char c;
- 
-	 for (i = 0; s[i]; i++)
-		 count++;
-	 if (s == "")
-		 _putchar('\0');
-	 else
-		 for (j = 0; j <= count; j++)
-		 {
-			 _putchar(s[j]);
-		 }
+	int i, j, count = 0;
+	char c;
+
+	for (i = 0; s[i]; i++)
+		count++;
+	if (s == "")
+		_putchar('\0');
+	else
+		for (j = 0; j <= count; j++)
+		{
+			_putchar(s[j]);
+		}
 }
-								              }
