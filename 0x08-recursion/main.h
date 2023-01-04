@@ -1,5 +1,5 @@
-#ifndef
-#define
+#ifndef HEADER_MAIN
+#define HEADER_MAIN
 
 int _putchar(char c);
 void _puts_recursion(char *s);
