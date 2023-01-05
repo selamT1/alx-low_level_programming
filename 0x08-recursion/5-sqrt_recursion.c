@@ -3,10 +3,13 @@
  * _sqrt_recursion - return the natural square root
  * @n: arg accepts the square value
  * Return: -1 if n not natural square root
- */
+*/
+int cal_sqt(int n, int x);
 int _sqrt_recursion(int n)
 {
-	return (cal_sqt(n, 1));
+	int i = 1;
+
+	return (cal_sqt(n, i));
 }
 /**
  * cal_sqt - check the number square root or not
