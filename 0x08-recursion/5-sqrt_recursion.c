@@ -2,6 +2,7 @@
 /**
  * _sqrt_recursion - return the natural square root
  * @n: arg accepts the square value
+ * @x: arg to define square number
  * Return: -1 if n not natural square root
 */
 int cal_sqt(int n, int x);
