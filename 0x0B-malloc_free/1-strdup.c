@@ -22,3 +22,4 @@ char *_strdup(char *str)
 	for (index2 = 0; str[index2]; index2++)
 		ptr[index2] = str[index2];
 	return (ptr);
+}
