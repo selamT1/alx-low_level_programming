@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+#include <string.h>
 
 /**
  * _strdup - memory space duplicate
@@ -13,7 +14,7 @@ char *_strdup(char *str)
 	char *ptr;
 	int index1, index2;
 
-	if (str == NULL)
+	if (strlen(str) == 0)
 		return (NULL);
 	for (index1 = 0; str[index1]; index1++)
 		ptr = malloc(sizeof(char) * (index1 + 1));
