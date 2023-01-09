@@ -14,9 +14,9 @@ char *_strdup(char *str)
 	char *ptr;
 	int index1, index2;
 
-	if (strlen(str) == 0)
+	if (str == NULL)
 		return (NULL);
-	for (index1 = 0; str[index1]; index1++)
+	for (index1 = 0; str[index1] != '\0'; index1++)
 		ptr = malloc(sizeof(char) * (index1 + 1));
 	if (ptr == NULL)
 		return (NULL);
