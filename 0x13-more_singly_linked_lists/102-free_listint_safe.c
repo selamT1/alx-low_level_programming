@@ -2,7 +2,7 @@
 
 /**
  * free_listint_safe - frees a linked list
- * @h: pointer to the first node in the linked list
+ * @h: pointer to the first first node in the list
  *
  * Return: number of elements in the freed list
  */
