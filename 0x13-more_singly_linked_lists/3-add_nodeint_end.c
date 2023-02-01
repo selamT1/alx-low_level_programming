@@ -4,7 +4,7 @@
  * @head: header node pointer
  * @n: values assigned to data memember n
  * Return: address of new node or NULL if fails
- */ 
+ */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *newPtr;
